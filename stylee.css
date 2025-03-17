@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #121212;
+    background-image: url('Screenshot 2025-03-16 at 15-33-01 Design Editor.png'); background-size: cover; 
+    scroll-behavior: smooth;
+    }
+    
+    header {
+    background-color: rgba(32, 35, 42, 0.9); 
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    }
+    
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    }
+    
+    .logo img {
+    height: 100px; 
+        }	
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    }
+    
+    nav ul li a {
+    text-decoration: none;
+    color: #61dafb;
+    }
+    
+    .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: rgba(40, 44, 52, 0.9); 
+    margin-top: 70px; 
+    }
+    
+    .hero h1 {
+    font-size: 3em;
+    }
+    
+    .container {
+    padding: 2em;
+    size: 100px;
+    text-align: center;
+    
+    }
+    
+    .about, .services, .contact {
+    background-color: rgba(32, 35, 42, 0.9); padding: 2em 0;
+    }
+    
+    .about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    .about-image img {
+    width: 200px;
+    }
+    
+    .services .container, .contact .container {
+    text-align: center;
+    }
+    
+    .service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+    
+    .service-card {
+    background-color: rgba(40, 44, 52, 0.9); 
+    margin: 1em;
+    padding: 1em;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .service-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    }
+    
+    footer {
+    background-color: rgba(32, 35, 42, 0.9); 
+    text-align: center;
+    padding: 1em 0;
+    }
+    .about1{
+    text-align: center;
+    color: blue;
+    }
+    
